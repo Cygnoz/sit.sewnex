@@ -33,7 +33,7 @@ server.use(organizationRouter);
 const PORT = process.env.PORT || 4004;
 
 server.get('/', (req, res) => {
-    res.status(200).json("Dev Sewnex server started - Organization v3");
+    res.status(200).json("SIT Sewnex server started - Organization v1");
 });
 
 server.listen(PORT, () => {
