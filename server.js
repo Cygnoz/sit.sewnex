@@ -28,7 +28,7 @@ server.use(reportRouter)
 const PORT = 4006;
 
 server.get('/',(req,res)=>{
-    res.status(200).json("Dev Sewnex server started - Report v1.6")
+    res.status(200).json("SIT Sewnex server started - Report v1")
 })
 
 server.listen(PORT,()=>{
